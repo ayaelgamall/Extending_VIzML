@@ -79,7 +79,7 @@ model.to(device)
 
 optim = AdamW(model.parameters(), lr=1e-4)
 
-epochs = 10
+epochs = 500
 
 for epoch in range(epochs):
     loop = tqdm(dataloader, leave=True)
