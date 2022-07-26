@@ -19,3 +19,6 @@ run 'tokenizer_init.py' to prepare Bert Tokenizer with the new vocabulary.(allVo
 
 ## Model Training
 run 'tokenizer_pipeline.py' to train Bert model on the dataset and save it to 'Bert-configs'
+
+get the pretrained model without all these steps from this link :
+  https://drive.google.com/file/d/1lhS0QVJY767hb1nHfHJn1UloHGtzeVNx/view?usp=sharing
