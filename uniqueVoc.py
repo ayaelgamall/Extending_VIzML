@@ -1,6 +1,6 @@
 import json
 
-with open('../Data/data_to_configs-20220602T064136Z-00123655/data_to_configs/configs.json') as f:
+with open('./configs.json') as f:
     words = json.load(f)
 # [type,x-type,y-type,opacity,marker,line,mode,text,autobiny]
 # print(type(words))
